@@ -7,90 +7,92 @@ local Window = Library.CreateLib("Teleporting", "BloodTheme")
 
 
 local Tab1 = Window:NewTab("Dimensions")
-local Tab1Section = Tab1:NewSection("Teleport")
+local Tab2 = Window:NewTab("Dungeons")
+local Tab3 = Window:NewTab("Bosses")
+local Tab1Section = Tab1:NewSection("Dimension 1 - 6")
 
-Tab1Section:NewButton("Arsenal", "Script will start once clicked.", function()
+Tab1Section:NewButton("Dimension ", "Teleports you to Dimension 1", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Teleporting...";
                 Duration = 1.5;})
-game:GetService("TeleportService"):Teleport(286090429)
+game:GetService("TeleportService"):Teleport(4042427666)
 
 end)
 
-Tab1Section:NewButton("Blox Fruits", "Script will start once clicked.", function()
+Tab1Section:NewButton("Dimension 2", "Teleports you to Dimension 2", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Teleporting...";
                 Duration = 1.5;})
-game:GetService("TeleportService"):Teleport(2753915549)
+game:GetService("TeleportService"):Teleport(5113678354)
 
 end)
 
-Tab1Section:NewButton("Pet Simulator X", "Script will start once clicked.", function()
+Tab1Section:NewButton("Dimension 3", "Teleports you to Dimension 3", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Teleporting...";
                 Duration = 1.5;})
-game:GetService("TeleportService"):Teleport(6284583030)
+game:GetService("TeleportService"):Teleport(5113680396)
 
 end)
 
-Tab1Section:NewButton("Murder Mystery 2", "Script will start once clicked.", function()
+Tab1Section:NewButton("Dimension 4", "Teleports you to Dimension 4", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Teleporting...";
                 Duration = 1.5;})
-game:GetService("TeleportService"):Teleport(142823291)
+game:GetService("TeleportService"):Teleport(5445525505)
 
 end)
 
-Tab1Section:NewButton("Restaurant Tycoon 2", "Script will start once clicked.", function()
+Tab1Section:NewButton("Dimension 5", "Teleports you to Dimension 5", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Teleporting...";
                 Duration = 1.5;})
-game:GetService("TeleportService"):Teleport(3398014311)
+game:GetService("TeleportService"):Teleport(6479720355)
 
 end)
 
-Tab1Section:NewButton("Driving Empire", "Script will start once clicked.", function()
+Tab1Section:NewButton("Dimension 6", "Teleports you to Dimension 6", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Teleporting...";
                 Duration = 1.5;})
-game:GetService("TeleportService"):Teleport(3351674303)
+game:GetService("TeleportService"):Teleport(9386500519)
 
 end)
 
-Tab1Section:NewButton("Pet Rift", "Script will start once clicked.", function()
+Tab1Section:NewButton("Tournament Dimension", "Teleports you to the Tournament Dimension", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Teleporting...";
                 Duration = 1.5;})
-game:GetService("TeleportService"):Teleport(11448052802)
+game:GetService("TeleportService"):Teleport(5445504800)
 
 end)
 
-Tab1Section:NewButton("Sharkbite 2", "Script will start once clicked.", function()
+Tab2Section:NewButton("Dungeon 1", "Teleports you to Dungeon 1", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Teleporting...";
                 Duration = 1.5;})
-game:GetService("TeleportService"):Teleport(8908228901)
+game:GetService("TeleportService"):Teleport(7220975160)
 
 end)
 
-Tab1Section:NewButton("Mad City", "Script will start once clicked.", function()
+Tab2Section:NewButton("Dungeon 2", "Teleports you to Dungeon 2", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Teleporting...";
                 Duration = 1.5;})
-game:GetService("TeleportService"):Teleport(1224212277)
+game:GetService("TeleportService"):Teleport(7220986579)
 
 end)
 
-Tab1Section:NewButton("Zombie Rush", "Script will start once clicked.", function()
+Tab3Section:NewButton("Dungeon 2", "Teleports you to Dungeon 2", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Teleporting...";
@@ -99,7 +101,7 @@ game:GetService("TeleportService"):Teleport(137885680)
 
 end)
 
-Tab1Section:NewButton("Zombie Rush Hardcore", "Script will start once clicked.", function()
+Tab3Section:NewButton("Zombie Rush Hardcore", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Teleporting...";
@@ -132,15 +134,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Text = "Teleporting...";
                 Duration = 1.5;})
 game:GetService("TeleportService"):Teleport(4924922222)
-
-end)
-
-Tab1Section:NewButton("Adopt Me", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Teleporting...";
-                Duration = 1.5;})
-game:GetService("TeleportService"):Teleport(920587237)
 
 end)
 
