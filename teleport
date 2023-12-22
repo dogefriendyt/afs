@@ -1,0 +1,148 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "HEY!";
+                Text = "Menu has loaded, enjoy! :)";
+                Duration = 1.5;})
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/GdN5iRbt"))() 
+local Window = Library.CreateLib("Teleporting", "BloodTheme") 
+
+
+local Tab1 = Window:NewTab("Games")
+local Tab1Section = Tab1:NewSection("Teleport")
+
+Tab1Section:NewButton("Arsenal", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(286090429)
+
+end)
+
+Tab1Section:NewButton("Blox Fruits", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(2753915549)
+
+end)
+
+Tab1Section:NewButton("Pet Simulator X", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(6284583030)
+
+end)
+
+Tab1Section:NewButton("Murder Mystery 2", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(142823291)
+
+end)
+
+Tab1Section:NewButton("Restaurant Tycoon 2", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(3398014311)
+
+end)
+
+Tab1Section:NewButton("Driving Empire", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(3351674303)
+
+end)
+
+Tab1Section:NewButton("Pet Rift", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(11448052802)
+
+end)
+
+Tab1Section:NewButton("Sharkbite 2", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(8908228901)
+
+end)
+
+Tab1Section:NewButton("Mad City", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(1224212277)
+
+end)
+
+Tab1Section:NewButton("Zombie Rush", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(137885680)
+
+end)
+
+Tab1Section:NewButton("Zombie Rush Hardcore", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(4301323950)
+
+end)
+
+Tab1Section:NewButton("Zombie Attack", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(1240123653)
+
+end)
+
+Tab1Section:NewButton("Zombie Attack Hardmore", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(1632210982)
+
+end)
+
+Tab1Section:NewButton("Brookhaven", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(4924922222)
+
+end)
+
+Tab1Section:NewButton("Adopt Me", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(920587237)
+
+end)
+
+
+
